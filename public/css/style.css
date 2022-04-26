@@ -20,14 +20,69 @@ body{
 }
 .text-btn{
     text-align: center;
-    color: white;
+    color: #2F2B2E;
     box-sizing: border-box;
-    background-color: #D3DDA7;
-    border: 2px solid #D3DDA7; 
+    background-color:#C9E265 ;
+    border: 3px solid #C9E265; 
     border-radius: 30px;
-    width: 200px;
+    width: 240px;
+    height: 40px;
+    box-shadow: 2px 5px #70890C;
+    font-weight: bold;
+}
+.text-btn:hover{
+    background-color: #D3DDA7;
+    border: 3px solid #D3DDA7;
+    color: #2F2B2E;
+    box-shadow: 2px 5px #ACC44F;
+    font-weight: bold;
+}
+.title-as{
+    text-align: center;
+    color: white;
+    font-size:18px;
+}
+
+.title-header{
+    background-color: #C9E265;
+    color:white;
+    padding-top: 10px;
+    padding-bottom:10px;
+    padding-left: 15px;
+}
+.title-dosen{
+    padding-top: 20px;
+    color: #1A1A1D;
+}
+.text-add{
+    box-sizing: border-box;
+    background-color:#70890C ;
+    border: 3px solid #70890C; 
+    border-radius: 20px;
+    color: white;
+    font-weight: bold;
+    width: 240px;
     height: 40px;
 }
-.col{
-    text-align: center;
+.edit-btn{
+    border-radius: 20px;
 }
+.delete-btn{
+    border-radius: 20px;
+}
+.form-style{
+    background-color: white;
+    border-radius: 5px;
+}
+.mb-3{
+    padding-left:40px;
+    padding-right:40px;
+}
+.submit-btn{
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+
+
+
