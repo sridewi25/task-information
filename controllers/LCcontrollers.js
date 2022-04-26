@@ -7,8 +7,7 @@ class lcController{
                 include: [lecturer,subject],
                 order: [
                     ['id','asc']
-                ],
-                attribute:['id']
+                ]
             })
             res.json(LCs)
         }
@@ -23,16 +22,12 @@ class lcController{
                 lecturerId:Number(lecturerId),
                 subjectId:Number(subjectId)
             })
-            res.redirect('/lecturer_subjects')
+            res.json({LCs})
         }
         catch(err){
             res.json(err)
         }
     }
-    static createPage(req,res){
-        res.render('')
-    }
-
 }
 
 module.exports = lcController;
