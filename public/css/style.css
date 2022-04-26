@@ -1,0 +1,33 @@
+body{
+    font-family: 'Arial'
+}
+.img-logo{
+    padding-left: 30px;
+    padding-top: 20px;
+}
+.title-welcome{
+    padding-top: 30px;
+    color: white;
+    font-size: 60px;
+    text-align: center;
+    font-weight: bold;
+}
+.description-task{
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    padding-top: 20px;
+}
+.text-btn{
+    text-align: center;
+    color: white;
+    box-sizing: border-box;
+    background-color: #D3DDA7;
+    border: 2px solid #D3DDA7; 
+    border-radius: 30px;
+    width: 200px;
+    height: 40px;
+}
+.col{
+    text-align: center;
+}
