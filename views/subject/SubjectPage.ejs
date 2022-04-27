@@ -22,10 +22,11 @@
                 <h3 class="title-dosen">Data Subject Dosen</h3>
               </div>
             </div><br>
-            <table class="table" style="align-content: center; margin-left:auto;margin-right:auto">
+            <table class="table serial-numbers" style="align-content: center; margin-left:auto;margin-right:auto">
                 <thead class="table-light" style="text-align:center">
                     <tr>
-                        <th scope="col">ID</th>
+                        <th scope="col">No</th>
+                        <th scope="col">ID Subject</th>
                         <th scope="col">Subject</th>
                         
                       </tr>
@@ -33,6 +34,7 @@
                 <tbody class="table-light" style="text-align:center">
                     <% lecturersubjects.forEach(lecturersubject => { %>
                         <tr>
+                            <td> </td>
                             <td><%= lecturersubject.id %></td>
                             <td><%= lecturersubject.name %></td>
                             </td>

@@ -82,7 +82,14 @@ body{
     text-align: center;
     padding-bottom: 20px;
 }
+.serial-numbers{
+    counter-reset: serial-number;
+}
 
+.serial-numbers td:first-child:before {
+    counter-increment: serial-number;  
+    content: counter(serial-number);  
+}
 
 
 
